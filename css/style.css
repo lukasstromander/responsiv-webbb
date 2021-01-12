@@ -1,0 +1,47 @@
+header
+ {
+   background-color: #855f38;
+   color: inherit;
+   font-size: 80px;
+   font-family: impact, sans-serif;
+   text-align: center;
+ }
+nav
+{
+  background-color: #4c7e39;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: impact, sans-serif;
+}
+section {
+  background-color: #315479;
+  color: inherit;
+  font-size: 50px;
+  font-family: impact, sans-serif;
+  text-align: center;
+}
+footer {
+  background-color: green;
+  color: inherit;
+  text-align: center;
+  font-size: 30px;
+  font-family: times, serif;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+ ul {
+  font-size: 10px;
+  display: inline;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+}
